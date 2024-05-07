@@ -8,7 +8,7 @@ EdGap sources its socioeconomic data from the Census Bureau's American Community
 The second dataset ccd_sch_029_1617_w_1a_11212017.csv isn't located in the repository as it is too large to be hosted, it can be accessed in a Google Drive via this link https://drive.google.com/file/d/1HvW2w-o2XZzCm4KTvnb1Bb3BvoAa14BP/view?usp=sharing
 This dataset contains basic identifying information about schools that comes from the National Center of Education Statistics https://nces.ed.gov/ccd/pubschuniv.asp.
 
-#Data Preparation
+# Data Preparation
 The data was imported and prepared in Education_Inequality_Data_Preparation.ipynb, in the notebook I removed unnecessary columns, cleaned rows with missing values, and split the data into training and test sets for regression analysis. I filled in key missing values with inputation. The cleaned datasets were exported as training_data.csv and test_data.csv in the repository. In addition I also separated a set of alternative training and test data to be used for our secondary analysis, these are labeled as alt_training_data.csv and alt_test_data.csv
 
 # Data Analysis
